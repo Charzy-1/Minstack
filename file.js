@@ -37,7 +37,3 @@ function balancedBrackets(str) {
     return stack.length === 0;
 }
 
-// Test cases
-console.log(balancedBrackets('(hello)[world]')); // => true
-console.log(balancedBrackets('([)]')); // => false
-console.log(balancedBrackets('[({}{}{})([])]')); // => true
